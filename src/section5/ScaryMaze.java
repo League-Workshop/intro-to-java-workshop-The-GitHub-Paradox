@@ -19,12 +19,12 @@ import javax.swing.SwingUtilities;
 public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 	
 	BufferedImage maze;
-	final int frameWidth = 500;
-	final int frameHeight = 500;
+	final int frameWidth = 801;
+	final int frameHeight = 790;
 
 	ScaryMaze() throws Exception {
 		//1. Use this online tool to make a maze image and drop it into your section5 package: https://www.pixilart.com/
-		//maze = ImageIO.read(getClass().getResource("standardMaze.jpg"));
+		maze = ImageIO.read(getClass().getResource("maze.png"));
 		//2. Change the line of code above so that it matches your maze's file name
 		
 		//3. Set the mouse pointer to the start of your maze using:
